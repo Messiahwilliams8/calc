@@ -7,7 +7,7 @@
 html {
     font-family: "Roboto","Noto Sans","Helvetica", sans-serif;
     font-size: 14px;
-    background-color: #3498DB;
+    background-color: #35a7df;
     height: 100%;
 }
 
@@ -16,7 +16,7 @@ html {
      height: auto;
      margin: 70px auto 0;
      overflow: hidden;
-     box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+     box-shadow: 4px 4px rgba(227, 175, 45, 0.2);
 }
 
 .calculator span{
@@ -68,7 +68,7 @@ html {
 }
 
 .bottom {
-  background-color: #2D2D2D;
+  background-color: #2d2d2d;
   height: 300px;
   color: #fff;
   cursor: pointer;
