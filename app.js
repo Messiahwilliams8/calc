@@ -1,5 +1,6 @@
 "use strict"
-const input = document.querySelector('.imput')
+
+const input = document.querySelector('.input')
 const result = document.querySelector('.result')
 const deleteBtn = document.querySelector('.delete')
 const keys = document.querySelectorAll('.bottom span')
@@ -37,7 +38,7 @@ if (operation.length === 0 && operators.indexOf(key) !== -1){
     return
 }
 if (operators.indexOf(lastchar) !== -1 && operators.indexOf(key) !== -1){
-    input.innerHTML=operation
+    input.innerHTML= operation
     return
 }
 
